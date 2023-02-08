@@ -12,14 +12,14 @@
         }
     ],
     "require": {
-        "php": ">=8.0",
+        "php": ">=7.3",
         "guzzlehttp/guzzle": "^6.3 || ^7.0",
-        "illuminate/notifications": "^9.0.2",
-        "illuminate/support": "^9.0.2"
+        "illuminate/notifications": "^5.7",
+        "illuminate/support": "^5.7"
     },
     "require-dev": {
-        "orchestra/testbench": "^7.0",
-        "phpunit/phpunit": "^9.5.10"
+        "orchestra/testbench": "3.7.*",
+        "phpunit/phpunit": "^7.5"
     },
     "autoload": {
         "psr-4": {
